@@ -386,11 +386,13 @@
     gap: 30px;
     /* text-align: center; */
   }
-
-
 }
 
 @media (max-width: 500px) {
+
+  .logo {
+    gap: 8px;
+  }
 
   .hero__title {
     font-size: 32px;
@@ -422,6 +424,11 @@
 
   .footer-copy__text {
     font-size: 14px;
+  }
+
+  .hero__description-sale,
+  .hero__description-black-friday {
+    font-size: 10px;
   }
 
 }
