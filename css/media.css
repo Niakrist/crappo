@@ -1,0 +1,427 @@
+@media (max-width: 1250px) {
+  .hero__title {
+    font-size: 48px;
+  }
+
+  .subscribe__container {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .portfolio__title {
+    padding-top: 50px;
+    font-size: 32px;
+    margin: 0 auto 50px;
+  }
+
+  .portfolio-invest:nth-child(even) {
+    flex-direction: column-reverse;
+  }
+
+  .portfolio-invest:nth-child(odd) {
+    flex-direction: column;
+  }
+
+  .portfolio-invest {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .portfolio-invest__content {
+    text-align: center;
+  }
+
+  .portfolio-invest {
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 1150px) {
+  .cryptocurrencies__list {
+    gap: 30px;
+  }
+
+  .cryptocurrencies__item-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .why__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 75px;
+  }
+
+  .why__item {
+    width: calc((100% / 2) - 75px);
+  }
+
+  .why__choose-title {
+    font-size: 32px;
+  }
+
+  .subscribe__input-email {
+    width: 200px;
+  }
+
+  .subscribe__input-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  .subscribe__subscribe {
+    gap: 20px;
+  }
+
+  .subscribe__title {
+    font-size: 28px;
+  }
+
+  .subscribe__text {
+    font-size: 14px;
+  }
+
+  .footer-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .footer-block + .footer-block {
+    margin-left: unset;
+  }
+
+  .footer-payment {
+    margin-left: unset;
+  } 
+}
+
+@media (max-width: 1000px) {
+  .trade__check-title {
+    font-size: 32px;
+  }
+
+  .trade__check-text {
+    font-size: 16px;
+  }
+
+  .trade-form-select,
+  .trade-form-input:placeholder-shown {
+    font-size: 16px;
+  }
+
+  .trade-form {
+    margin: 0 15px;
+    width: unset;
+  }
+
+  .trade__info {
+    width: unset;
+  }
+
+  .trade-form-input {
+    width: 300px;
+  }
+
+  .trade-form-select {
+    width: 150px;
+  }
+
+  .cryptocurrencies__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .footer-links__title {
+    font-size: 18px;
+  }
+  .link {
+    font-size: 14px;
+  }
+  .footer-payment__title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 850px) {
+
+  .header {
+    padding: 40px 0 30px;
+  }
+
+  .logo span {
+    font-size: 16px;
+  }
+
+  .menu {
+    gap: 16px;
+    margin-right: 32px;
+  }
+
+  .menu-link {
+    font-size: 14px;
+  }
+
+  .btn {
+    padding: 10px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 10px;
+  }
+
+  .hero {
+    padding-bottom: 30px;
+  }
+
+  .hero__description-black-friday,
+  .hero__description-sale {
+    font-size: 14px;
+  }
+
+  .hero__title {
+    font-size: 36px;
+    font-weight: 500;
+  }
+
+  .hero__text {
+    max-width: 300px;
+    font-size: 14px;
+  }
+
+  .why {
+    padding: 30px 0;
+  }
+
+  .why__list {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 50px;
+  }
+
+  .why__item {
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  .why__choose {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .why__choose-title {
+    text-align: center;
+  }
+
+  .why__choose-text {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .why__choose-btn {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .trade-black {
+    padding: 25px 0 0;
+  }
+
+  .trade-white {
+    padding-bottom: 25px;
+  }
+
+  .trade-form {
+    padding: 24px;
+  }
+
+  .trade-form-input {
+    width: 250px;
+  }
+
+  .trade-form-select {
+    width: 100px;
+  }
+
+  .trade__info {
+    padding: 24px;
+  }
+
+  .cryptocurrencies {
+    margin-bottom: 50px;
+  }
+
+  .cryptocurrencies-title {
+    max-width: 90%;
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 auto 30px;
+  }
+
+  .subscribe__container {
+    padding: 24px;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .subscribe__title,
+  .subscribe__text {
+    text-align: center;
+  }
+
+  .subscribe__subscribe {
+    flex-direction: column;
+  }
+
+  .subscribe {
+    padding: 30px 0 30px;
+  }
+
+  .footer-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .footer-payment__icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+}
+
+@media (max-width: 800px) {
+  .cryptocurrencies__item {
+    width: 80%;
+  }
+}
+
+@media (max-width: 720px) {
+  .header {
+    padding: 20px 0 15px;
+  }
+
+  .accunt,
+  .menu {
+    display: none;
+  }
+
+  .hero__container {
+    flex-direction: column-reverse;
+  }
+
+  .hero__description {
+    margin-bottom: 30px;
+  }
+
+  .hero__img {
+    margin-bottom: 30px;
+  }
+
+  .hero__content {
+    text-align: center;
+  }
+
+  .hero__text {
+    margin: 0 auto 30px;
+  }
+
+  .btn {
+    margin: 0 auto;
+  }
+
+  .why__item-header {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .why__item-description {
+    font-size: 14px;
+  }
+
+  .trade-form {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  .trade-form-input {
+    width: 200px;
+  }
+
+  .trade__info-text,
+  .trade__info-title {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .trade__info-currency {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .portfolio__title {
+    font-size: 24px;
+  }
+
+  .portfolio-invest__title {
+    font-size: 20px;
+  }
+
+  .portfolio-invest__text {
+    font-size: 14px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .footer-copy {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    /* text-align: center; */
+  }
+
+
+}
+
+@media (max-width: 500px) {
+
+  .hero__title {
+    font-size: 32px;
+  }
+
+  .trade__check-title,
+  .why__choose-title {
+    font-size: 30px;
+  }
+
+  .cryptocurrencies-title {
+    font-size: 20px;
+  }
+
+  .why__item {
+    width: unset;
+  }
+
+  .footer-payment__title,
+  .subscribe__title,
+  .trade__info-currency {
+    font-size: 24px;
+  }
+
+ 
+  .cryptocurrencies__item-title {
+    font-size: 20px;
+  }
+
+  .footer-copy__text {
+    font-size: 14px;
+  }
+
+}
